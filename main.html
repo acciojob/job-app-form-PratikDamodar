@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    <form method="post">
+        <div>
+            <label for="name">Name*</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label for="name">Email*</label>
+            <input type="text" name="" id="" required>
+        </div>
+        <div>
+            <label for="name">Gender*</label>
+            <input type="radio" required>
+            <input type="radio" required name="gender" id="gender">Male
+            <input type="radio" required name="gender" id="gender">Female
+
+
+        </div>
+        <div>
+            <label for="Laptop">Laptop Brands</label>
+            <select name="" id="Laptop">
+                <option value="Apple">Apple</option>
+                <option value="Asus">Asus</option>
+                <option value="Hp">Hp</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age*</label>
+            <input type="number" name="" id="" required>
+        </div>
+        <div>
+            <label for="date">DOB*</label>
+            <input type="date" required>
+        </div>
+        <div>
+            <label for="password">Password*</label>
+            <input type="text" required>
+        </div>
+        <button type="submit">submit</button>
+    </form>
+	  <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
-
 </html>
